@@ -22,7 +22,8 @@ end
 def kesha_maker(array)
   new_array[]
   array.each do |a| 
-  new_array << ("bl$ke","as$ley","sc$tt")
+    a[3] = "$"
+  new_array << "$" 
 end
 new_array
 end
